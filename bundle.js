@@ -9523,8 +9523,6 @@ if (timerValue != null) {
   document.getElementById("game-length-sentence").innerHTML = "The game is " + parseInt(timerValue) + " minutes long.";
 }
 
-var gameVersion = searchParams.get("gameVersion");
-
 var galleryShapes = [];
 var searchScore = 0.33;
 var redmetricsConnection = void 0;
